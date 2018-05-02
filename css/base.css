@@ -1,0 +1,48 @@
+
+body {
+  margin-top: 50px;
+}
+
+li {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+#search {
+  border: 2px solid lightgray;
+  border-radius: 5px;
+  color: gray;
+  font-size: .8em;
+  padding: 10px;
+  width: 180px;
+}
+
+::placeholder {
+  font-style: italic;
+}
+
+/* ================================= 
+  Media Queries
+==================================== */
+
+@media (min-width: 768px) {
+
+  body,
+  li,
+  #search {
+    margin: 20px;
+  }
+
+  #search {
+    width: 300px;
+  }
+
+}
+
+@media (min-width: 1024px) {
+
+  ul {
+    width: 985px;
+  }
+
+}
