@@ -22,6 +22,23 @@ li {
 }
 
 /* ================================= 
+  Custom Lightbox Styles
+==================================== */
+
+.lightbox .lb-image {
+  border: none;
+}
+
+.lb-nav a.lb-prev,
+.lb-nav a.lb-next {  
+  width: 45%;
+}
+
+.lb-data .lb-caption {
+  font-weight: normal;
+}
+
+/* ================================= 
   Media Queries
 ==================================== */
 
@@ -37,6 +54,28 @@ li {
     width: 300px;
   }
 
+/* ================================= 
+  Custom Lightbox Styles
+==================================== */
+
+  .lb-outerContainer {
+    background: none;
+  }
+
+  .lb-outerContainer,
+  .lb-container,
+  .lb-nav {
+    width: 150vh !important;
+  }
+
+  .lb-image {
+    margin: auto;
+  }
+
+  .lb-details {
+    padding-top: 10px;
+    padding-left: 10px;
+  }
 }
 
 @media (min-width: 1024px) {
@@ -44,5 +83,4 @@ li {
   ul {
     width: 985px;
   }
-
 }
